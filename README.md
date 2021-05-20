@@ -11,7 +11,7 @@ A document that specifies the basic principles of persistence layer management i
 Framework that manages the persistence layer through xml files or annotations.
 
 <p align="center">
-<img height="270" src="JPA-Hibernate">
+<img height="300" src="https://github.com/alejoalvarez/JPA-Hibernate/blob/master/images/JPA-Hibernate.png">
 </p>
 
 ## Relationship between JPA and Hibernate
@@ -19,21 +19,20 @@ Framework that manages the persistence layer through xml files or annotations.
 The relationship between JPA and Hibernate is that the latter implements the JPA specification as part of its code. In other words, we can use Hibernate to build a persistence layer relying on the definitions and rules of the JPA specification, although it is not mandatory.
 
 <p align="center">
-<img height="270" src="relation-JPA-Hibernate">
+<img height="300" src="https://github.com/alejoalvarez/JPA-Hibernate/blob/master/images/relation-JPA-Hibernate.png">
 </p>
 
 Of course, this does not mean that Hibernate simply implements the JPA standard. Hibernate is much larger than the JPA specification and adds more functionality.
 
 <p align="center">
-<img height="270" src="Hibernate1">
+<img height="300" src="https://github.com/alejoalvarez/JPA-Hibernate/blob/master/images/Hibernate1.png">
 </p>
-
 
 ## Hibernate and NoSQL
 
 One of the features that Hibernate supports today is the ability to work with NoSQL databases, something that JPA does not cover. This support that Hibernate brings allows us to work with MongoDB type databases (oriented to documents). Now, as long as we use Hibernate directly and rely on the proprietary annotations that it uses to support this new type of database.
 
 <p align="center">
-<img height="270" src="hibernate-nosql">
+<img height="300" src="https://github.com/alejoalvarez/JPA-Hibernate/blob/master/images/hibernate-nosql.png">
 </p>
 
