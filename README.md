@@ -38,12 +38,25 @@ In charge of converting the java objects into instructions for the database mana
 ## How to works Hibernate?
 
 <p align="center">
-<img height="400" src="https://github.com/alejoalvarez/JPA-Hibernate/blob/master/images/hibernate2.png">
+<img height="300" src="https://github.com/alejoalvarez/JPA-Hibernate/blob/master/images/hibernate2.png">
 </p>
+
+
+**Objects inside Hibernate**
 
 <p align="center">
 <img height="400" src="https://github.com/alejoalvarez/JPA-Hibernate/blob/master/images/Hibernate3.png">
 </p>
+
+- **Hibernate Configuration Object**: The configuration object is the first Hibernate object and is generally created only once during application initialization. Represents a required properties or configuration file and provides two key components:
+    - Database connection
+    - Class Mapping Settings
+
+- **SessionFactory target**: Configuration object is used to create a SessionFactory object for the application that uses the supplied configuration file, and allows a Session object to be executed.
+- **Session object**: It is used to obtain a physical connection with a database. Session objects should not be kept open for long as they are typically not thread safe and should be created and destroyed as needed.
+- **Transaction object**: This is an optional object and Hibernate applications can choose not to use this interface, instead managing transactions in their own application code.
+- **Query Object**: Query objects use SQL or Hibernate Query Language (HQL) string to retrieve data from the database and create objects. A query instance is used to bind the query parameters, limit the number of results returned by the query, and finally, to execute the query.
+- **Criteria object**: Criteria objects are used to create and run object queries and retrieve objects
 
 ## Relationship between JPA and Hibernate
 
