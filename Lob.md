@@ -6,7 +6,6 @@ The @Lob annotation is all that is required to tell JPA that this field is a hea
 
 The @Lob annotation does not have any attributes, so it will only need to be defined for it to work.
 
-
 ```java
 import java.util.Calendar;
 import java.util.Objects;
