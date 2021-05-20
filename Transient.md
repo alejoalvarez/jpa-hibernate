@@ -40,12 +40,7 @@ public class Customer {
     @Column(name="STATUS", nullable = false, length = 8 )
     @Enumerated(value = EnumType.STRING)
     private Status status;
-    
-    @Column(name = "PHOTO" ,nullable = true)
-    @Basic(optional = false, fetch = FetchType.EAGER)
-    @Lob()
-    private byte[] photo;
-    
+     
     /**
      * getters and setters
      */
