@@ -80,24 +80,15 @@ One of the features that Hibernate supports today is the ability to work with No
 <img height="300" src="https://github.com/alejoalvarez/JPA-Hibernate/blob/master/images/hibernate-nosql.png">
 </p>
 
-## Example ORM
+## JDBC
 
-```java
-@Entity //Tells JPA that this class is an entity
-@Table(name="customers") //maps against table in database
-public class Customer{
-    
-    @Id
-    @Column(name="id")
-    @GenerateValue(Strategy = GenerationType.IDENTITY)
-    private Long id;
+**Advantages**
 
-    @Column(name="name", length=500, nullable = false)
-    private String name;
+- It offers superior performance since it is the most direct way of sending instructions to the database.
+- It allows to fully exploit the functionalities of the database.
 
-    @Enumerate(EnumType.STRING)
-    @Column(name="status", length=10, nullable=false)
-    private Status status;
-}
+**Disadvantages**
 
-```
+- Maintenance is much more expensive.
+- It introduces a lot of errors at runtime.
+- Development is much slower.
