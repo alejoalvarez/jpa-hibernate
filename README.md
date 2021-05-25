@@ -1,5 +1,18 @@
 # JPA - Hibernate
 
+- [EntityManager](https://github.com/alejoalvarez/JPA-Hibernate/blob/master/EntityManager.md)
+- [@Entity](https://github.com/alejoalvarez/JPA-Hibernate/blob/master/Entity.md)
+- [@Table](https://github.com/alejoalvarez/JPA-Hibernate/blob/master/Table.md)
+- [@Id](https://github.com/alejoalvarez/JPA-Hibernate/blob/master/Id.md)
+- [@IdClass](https://github.com/alejoalvarez/JPA-Hibernate/blob/master/IdClass.md)
+- [hasCode and Equals](https://github.com/alejoalvarez/JPA-Hibernate/blob/master/HashCode-Equals.md)
+- [@EmbeddedId](https://github.com/alejoalvarez/JPA-Hibernate/blob/master/EmbeddedId.md)
+- [@Column](https://github.com/alejoalvarez/JPA-Hibernate/blob/master/Column.md)
+- [@Enumerated](https://github.com/alejoalvarez/JPA-Hibernate/blob/master/Enumerated.md)
+- [@Temporal](https://github.com/alejoalvarez/JPA-Hibernate/blob/master/Temporal.md)
+- [@Lob](https://github.com/alejoalvarez/JPA-Hibernate/blob/master/Lob.md)
+- [@Transient](https://github.com/alejoalvarez/JPA-Hibernate/blob/master/Transient.md)
+
 ## JPA - (Java Persistence API)
 
 - JPA is a part of the EJB 3 specification (JSR 220). Therefore it does not really exist as a framework, but is simply a document.
