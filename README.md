@@ -40,7 +40,7 @@ In charge of converting the java objects into instructions for the database mana
 - We can use Hibernate to build a persistence layer relying on the definitions and rules of the JPA specification, although it is not mandatory.
 
 <p align="center">
-<img height="300" src="https://github.com/alejoalvarez/JPA-Hibernate/blob/master/images/JPA-Hibernate.png">
+<img width="649" alt="JPA-Hibernate" src="https://user-images.githubusercontent.com/13514156/127752520-8a10b204-7351-4d5b-8383-3d7de46d4905.png">
 </p>
 
 ## ORM (Obect Relational Mapping)
@@ -51,14 +51,14 @@ In charge of converting the java objects into instructions for the database mana
 ## How to works Hibernate?
 
 <p align="center">
-<img height="300" src="https://github.com/alejoalvarez/JPA-Hibernate/blob/master/images/hibernate2.png">
+<img width="921" alt="hibernate2" src="https://user-images.githubusercontent.com/13514156/127752565-7f862b0a-3277-4a4d-b9e1-443de0ecbd42.png">
 </p>
 
 
 **Objects inside Hibernate**
 
 <p align="center">
-<img height="400" src="https://github.com/alejoalvarez/JPA-Hibernate/blob/master/images/Hibernate3.png">
+<img width="469" alt="Hibernate3" src="https://user-images.githubusercontent.com/13514156/127752575-2ee12963-9cf0-4915-82a8-13a411ac2e2a.png">
 </p>
 
 - **Hibernate Configuration Object**: The configuration object is the first Hibernate object and is generally created only once during application initialization. Represents a required properties or configuration file and provides two key components:
@@ -76,13 +76,13 @@ In charge of converting the java objects into instructions for the database mana
 The relationship between JPA and Hibernate is that the latter implements the JPA specification as part of its code. In other words, we can use Hibernate to build a persistence layer relying on the definitions and rules of the JPA specification, although it is not mandatory.
 
 <p align="center">
-<img height="300" src="https://github.com/alejoalvarez/JPA-Hibernate/blob/master/images/relation-JPA-Hibernate.png">
+<img width="240" alt="relation-JPA-Hibernate" src="https://user-images.githubusercontent.com/13514156/127752581-5d4f0379-024b-4c83-bfde-72c9cd9158f5.png">
 </p>
 
 Of course, this does not mean that Hibernate simply implements the JPA standard. Hibernate is much larger than the JPA specification and adds more functionality.
 
 <p align="center">
-<img height="300" src="https://github.com/alejoalvarez/JPA-Hibernate/blob/master/images/Hibernate1.png">
+<img width="353" alt="Hibernate1" src="https://user-images.githubusercontent.com/13514156/127752588-28637ca9-d7f6-4b5d-8c6b-f5e1f9c0fbed.png">
 </p>
 
 ## Hibernate and NoSQL
@@ -90,7 +90,7 @@ Of course, this does not mean that Hibernate simply implements the JPA standard.
 One of the features that Hibernate supports today is the ability to work with NoSQL databases, something that JPA does not cover. This support that Hibernate brings allows us to work with MongoDB type databases (oriented to documents). Now, as long as we use Hibernate directly and rely on the proprietary annotations that it uses to support this new type of database.
 
 <p align="center">
-<img height="300" src="https://github.com/alejoalvarez/JPA-Hibernate/blob/master/images/hibernate-nosql.png">
+<img width="469" alt="hibernate-nosql" src="https://user-images.githubusercontent.com/13514156/127752596-d9adac98-493b-4436-9909-9ee80f02eedd.png">
 </p>
 
 ## JDBC
