@@ -12,6 +12,7 @@
 - [@Temporal](https://github.com/alejoalvarez/JPA-Hibernate/blob/master/Temporal.md)
 - [@Lob](https://github.com/alejoalvarez/JPA-Hibernate/blob/master/Lob.md)
 - [@Transient](https://github.com/alejoalvarez/JPA-Hibernate/blob/master/Transient.md)
+- [@OneToMany](https://github.com/alejoalvarez/JPA-Hibernate/blob/master/OneToMany.md)
 
 ## JPA - (Java Persistence API)
 
